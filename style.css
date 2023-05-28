@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 60px;
+    padding: 15px;
+    /* border: 1px solid red; */
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 450;
+    padding-right: 50px;
+}
+
+.btn-btn {
+    font-size: 19px;
+}
+
+.btn {
+    color: rgb(1, 1, 156);
+    width: 90px;
+    height: 8vh;
+    background: transparent;
+    border: 2px solid rgb(1, 1, 156);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 450;
+
+}
+
+.btn-hero {
+    color: white;
+    width: 180px;
+    height: 8vh;
+    padding: 5px;
+    background: rgb(1, 1, 156);
+    border: 2px solid rgb(2, 2, 167);
+    font-weight: 450;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+.container {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container p {
+    font-size: 16px;
+    font-weight: 430;
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.about {
+    /* width: 50%; */
+    /* border: 1px solid blue; */
+    position: relative;
+    margin: 20px 20px;
+    padding: 20px 30px;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 550;
+    opacity: .8;
+}
+
+.about-p {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.about p {
+    width: 33%;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-weight: 450;
+    opacity: .6;
+}
+
+.grid-container {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 50px 150px;
+    padding: 10px 25px;
+}
+.lists{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    margin: 5px 15px;
+    padding: 7px 10px;
+}
+.lists p{
+    padding: 10px 20px;
+    font-weight: 450;
+    opacity: .6;
+}
+.lists i{
+    padding: 10px 12px ;
+    /* border: 1px solid blue; */
+    border-radius: 80px;
+    background: rgb(213, 213, 228);
+}
