@@ -145,3 +145,89 @@ nav ul li a {
     border-radius: 80px;
     background: rgb(213, 213, 228);
 }
+
+
+.footer{
+    /* width: 100vw; */
+    height: 110vh;
+    background: rgb(27, 27, 45);
+    /* position: relative; */
+}
+.footer-heading h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 35px;
+}
+.footer-para p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.button{
+    position: relative;
+}
+.btn-btn{
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 5px;
+    width: 230px;
+    font-size: 16px;
+    font-weight: 450;
+    position: absolute;
+    left: 42%;
+    color: white;
+    background: rgb(38, 38, 185);
+    border: 1px solid rgb(38, 38, 185);
+    border-radius: 5px;
+}
+hr{
+    /* height: 3px; */
+    color: whitesmoke;
+    margin-top: 120px;
+    margin-left: 150px;
+    width: 80%;
+    align-items: center;
+}
+.footer-logo h1{
+    color: white;
+    /* text-align: center; */
+    padding-top: 20px;
+    margin-left: 10%;
+    font-size: 35px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    margin-left: 3%;
+}
+.flex-one{
+    display: flex;
+    align-items: center;
+}
+.footer-about p,i,h3{
+    color: white;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+.footer-media{
+    padding-top: 25px;
+    margin-left: 10%;
+}
+.footer-media p{
+    color: white;
+    padding-top: 15px;
+}
+.footer-media i{
+    font-size: 30px;
+    padding-top: 25px;
+}
+.flex-two{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
